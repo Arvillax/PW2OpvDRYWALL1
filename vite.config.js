@@ -3,7 +3,7 @@ import purgecss from 'vite-plugin-purgecss'
 import handlebars from 'vite-plugin-handlebars'
 
 export default defineConfig(({ command }) => ({
-  base: './', // relative path para GitHub Pages
+  base: '/PW2OpvDRYWALL1/', // Nombre de tu repositorio en GitHub
 
   build: {
     cssMinify: true,
@@ -37,6 +37,7 @@ export default defineConfig(({ command }) => ({
       content: [
         './index.html',
         './html/**/*.html',
+        './partials/**/*.hbs',
         './javascript/**/*.js',
       ],
     }),
