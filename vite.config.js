@@ -32,14 +32,14 @@ export default defineConfig(({ command }) => ({
   plugins: [
     handlebars({
       partialDirectory: './partials',
-    }),
+    }),/*,
     purgecss({
       content: [
         './index.html',
-        './html/**/*.html',
-        './partials/**/*.hbs',
-        './javascript/**/*.js',
+        './html/**//*.html',
+        './partials/**//*.hbs',
+        './javascript/**//*.js',
       ],
-    }),
+    }),*/
   ],
 }))
